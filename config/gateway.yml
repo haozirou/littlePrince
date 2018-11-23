@@ -10,15 +10,6 @@ zuul:
     api-index:
       path: /api/index/**
       serviceId: index
-    api-comment:
-      path: /api/comment/**
-      serviceId: comment
-    api-user:
-      path: /api/user/**
-      serviceId: user
-    api-article:
-      path: /api/article/**
-      serviceId: article
   host:
     connect-timeout-millis: 60000
     socket-timeout-millis: 60000
