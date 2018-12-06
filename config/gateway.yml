@@ -10,6 +10,9 @@ zuul:
     api-index:
       path: /api/index/**
       serviceId: index
+    api-upload:
+      path: /api/upload/**
+      serviceId: upload
   host:
     connect-timeout-millis: 60000
     socket-timeout-millis: 60000
